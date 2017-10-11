@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 
 public class NewTest {
@@ -27,7 +28,9 @@ public class NewTest {
   @BeforeMethod
   public void beforeMethod() {
 	  System.setProperty("webdriver.chrome.driver", "D:/selenium/selenium_chrome/chromedriver.exe");
-	  driver=new ChromeDriver();
+	  ChromeOptions options=new ChromeOptions();
+	  options.setBinary("C:\\Users\\joy\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+	  driver=new ChromeDriver(options);
 	  
   }
 
