@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="openBrowser" >
+    <test name="testMavenDemo">
+        <classes>
+            <class name="com.baidu.two.BaiduDemoFour.NewTest"><!--指向测试类路径-->
+            </class>
+        </classes>
+    </test>
+</suite>
