@@ -1,6 +1,9 @@
 package com.baidu.two.BaiduDemoFour;
 
 import org.testng.annotations.Test;
+
+import com.baidu.two.BaiduDemoFour.main.Aa;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
