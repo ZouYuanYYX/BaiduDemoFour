@@ -40,6 +40,9 @@
                     <configuration> 
                         <source>1.7</source> 
                         <target>1.7</target> 
+                        <compilerarguments>
+            				<bootclasspath>${JAVA_HOME}/jre/lib/rt.jar</bootclasspath>
+       					</compilerarguments>
                     </configuration> 
             </plugin>
         
