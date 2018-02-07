@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="openBrowser" duration-ms="7234" started-at="2017-10-10T08:37:25Z" finished-at="2017-10-10T08:37:32Z">
+  <suite name="Default suite" duration-ms="8860" started-at="2018-02-06T08:43:31Z" finished-at="2018-02-06T08:43:40Z">
     <groups>
     </groups>
-    <test name="testMavenDemo" duration-ms="7234" started-at="2017-10-10T08:37:25Z" finished-at="2017-10-10T08:37:32Z">
-      <class name="com.baidu.two.BaiduDemoFour.NewTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.baidu.two.BaiduDemoFour.NewTest@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="3042" started-at="2017-10-10T16:37:25Z" finished-at="2017-10-10T16:37:28Z">
+    <test name="Default test" duration-ms="8860" started-at="2018-02-06T08:43:31Z" finished-at="2018-02-06T08:43:40Z">
+      <class name="com.baidu.two.BaiduDemoFour.main.NewTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.baidu.two.BaiduDemoFour.main.NewTest@3ffc5af1]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-02-06T16:43:31Z" finished-at="2018-02-06T16:43:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.baidu.two.BaiduDemoFour.NewTest@3e6fa38a]" name="f" duration-ms="2656" started-at="2017-10-10T16:37:28Z" finished-at="2017-10-10T16:37:31Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.baidu.two.BaiduDemoFour.main.NewTest@3ffc5af1]" name="f" duration-ms="8839" started-at="2018-02-06T16:43:31Z" finished-at="2018-02-06T16:43:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.baidu.two.BaiduDemoFour.NewTest@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="1523" started-at="2017-10-10T16:37:31Z" finished-at="2017-10-10T16:37:32Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.baidu.two.BaiduDemoFour.main.NewTest@3ffc5af1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-06T16:43:40Z" finished-at="2018-02-06T16:43:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.baidu.two.BaiduDemoFour.NewTest -->
-    </test> <!-- testMavenDemo -->
-  </suite> <!-- openBrowser -->
+      </class> <!-- com.baidu.two.BaiduDemoFour.main.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
